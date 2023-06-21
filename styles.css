@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: rgb(235, 235, 191);
+}
+
+.home-header{
+  background-image: url('zoo-cover.jpg');
+  background-size: cover;
+  background-position: center top -105px;
+  width: 100%;
+  height: 36rem;
+  background-color: bisque;
+}
+
+.home-header-content-container {
+  padding-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: calc(14%);
+  row-gap: 0.5rem;
+}
+
+.name {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: hsla(57, 100%, 81%, 0.863);
+  color: rgb(19, 14, 97);
+  font-size: 2.6rem;
+  font-style: oblique;
+}
+
+.img-container {
+  width: 4rem;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.nav-container {
+  list-style-type: none;
+  padding-block: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(224, 239, 253);
+}
+
+.nav-container li .subtitle {
+  border-bottom: 2px dashed;
+  cursor: pointer;
+}
+
+.nav-container li a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: rgb(41, 113, 196);
+}
+
+.nav-container li a:visited {
+  color: rgb(100, 12, 216)
+}
+
+.nav-container li a:hover {
+  color: rgb(71, 11, 44);
+}
+
+.nav-container li a:active {
+  color: rgb(19, 128, 24);
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  gap: 1.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+.sections option {
+  border: 0.01px dotted black;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: rgb(120, 141, 207);
+  color: white;
+}
+
+main {
+  margin-bottom: 3rem;
+}
+
+#about {
+  background-color: antiquewhite;
+  display: flex;
+  padding: 2rem;
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+.image-container {
+  padding-top: 2%;
+  width: 60rem;
+  height: auto;
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.greeting,
+.goals-label {
+  font-family: monospace;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+.content-container {
+  line-height: 1.8rem;
+  ;
+  text-align: justify;
+}
+
+#goals {
+  background-color: rgb(241, 255, 212);
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  column-gap: 3rem;
+  ;
+}
+
+.goal-images {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  ;
+  width: 60rem;
+  height: auto;
+  position: relative;
+}
+
+.image-goals-container {
+  width: 20rem;
+}
+
+.image-goals-container img {
+  width: 100%;
+}
+
+.goals-list li {
+  padding-bottom: 1rem;
+  line-height: 1.8rem;
+  ;
+}
+
+.quote {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: oblique;
+  border-block: 1.5px dashed blue;
+  text-align: center;
+  column-span: all;
+  margin-block: 1rem;
+  line-height: 3rem;
+  ;
+}
+
+.author {
+  white-space: nowrap;
+}
+
+.slider-container{
+  display: flex;
+  padding-left:2rem;
+  padding-right:2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.association-logo{
+  height:23rem;
+}
+
+.association-logo img{
+  height:100%;
+  width:auto;
+}
+
+#slider {
+  background-color: aliceblue;
+  width: 600px;
+  height: 366px;
+  border: 10px solid #6d6e2f;
+  margin: auto;
+  overflow: hidden;
+}
+
+#slider img {
+  width: 600px;
+  height: 347px;
+}
+
+.gratitude{
+  font-size:1.4rem;
+  padding-top:1.5rem;
+  text-align: center;
+  font-family:cursive;
+  letter-spacing: 0.5rem;;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.footer-nav {
+  height: 10rem;
+}
+
+.footer-nav-container {
+  padding-top:0.7rem;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(253, 224, 248);
+}
+
+.footer-nav-container li .footer-subtitle {
+  border-bottom: 2px dashed;
+  cursor: pointer;
+}
+
+.footer-subtitle-container{
+  margin-bottom:0.4rem;
+}
+
+.home-list{
+  list-style-type:square;
+}
+
+.home-list li::marker{
+  color:blue;
+  font-size:1.1rem;
+}
+
+.home-list li{
+  padding-top: 0.5rem;;
+}
+
+.home-list li a{
+  text-decoration: none;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <meta name="author" content="Aleksandar Sultan">
+  <meta name="description" content="Website of a zoo">
+  <meta name="keywords" content="animals, exotic, zoo, care, free time">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" media="screen" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="home-header">
+    <div class="home-header-content-container">
+      <h1 class="name"> Zooland</h1>
+      <div class="img-container">
+        <img src="img/zoo-icon.png" alt="logo" class="logo right" width="70px" height="70px">
+      </div>
+  </header>
+
+  <nav>
+    <ul class="nav-container">
+      <li>
+        <div class="subtitle-container">
+          <a for="home" class="subtitle">Home</a>
+        </div>
+        <label class="sections" type="text" name="home" id="home">
+          <div><a href="#about">About Us</a></div>
+          <div><a href="#goals">Our Goals</a></div>
+          <div><a href="#partners">Partners</a></div>
+        </label>
+      </li>
+      <li>
+        <div class="subtitle-container">
+          <a for="animals" class="subtitle">Animals</a>
+        </div>
+        <label class="sections" type="text" name="home" id="animals">
+          <div><a href="animals.html#herbivors">Herbivors</a></div>
+          <div><a href="animals.html#carnivouros">Carnivouros</a></div>
+          <div><a href="animals.html#omnivorous">Omnivorous</a></div>
+        </label>
+      </li>
+      <li>
+        <div class="subtitle-container">
+          <a for="donate" class="subtitle">Donate</a>
+        </div>
+        <label class="sections" type="text" name="home" id="donate">
+          <div><a href="donate.html#money">Money</a></div>
+          <div><a href="donate.html#food">Food</a></div>
+          <div><a href="donate.html#adopt">Adopt</a></div>
+        </label>
+      </li>
+      <li>
+        <div class="subtitle-container">
+          <a for="contacts" class="subtitle">Contacts</a>
+        </div>
+        <label class="sections" type="text" name="home" id="contacts">
+          <div><a href="contacts.html#address">Address</a></div>
+          <div><a href="contacts.html#write">Write us</a></div>
+        </label>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div id="about">
+      <div class="image-container">
+        <img src="img/about.jpg" alt="about-img" class="panda">
+      </div>
+      <div class="content-container">
+        <p class="greeting">Welcome to Zooland!
+        <p>
+          <br>
+        <p>
+          At Zooland, we offer a unique and captivating experience for animal enthusiasts of all ages. Our zoo is home
+          to a diverse range of fascinating creatures from around the world. Located in a lush and expansive natural
+          setting, Zooland provides a safe and comfortable environment for our animal residents.
+        <p>
+          <br>
+        <p>As you explore our zoo, you'll have the opportunity to encounter majestic lions, graceful giraffes,
+          playful monkeys, and many other captivating species. We believe in promoting conservation and education,
+          and our knowledgeable staff is always ready to share interesting facts about the animals and their
+          habitats.
+        <p>
+          <br>
+        <p>At Zooland, we prioritize the well-being and care of our animals. Our dedicated team of experts ensures
+          that they receive the highest quality of care, proper nutrition, and a stimulating environment that
+          closely resembles their natural habitats. We are committed to fostering a deep understanding and
+          appreciation for wildlife conservation.
+        </p>
+      </div>
+    </div>
+
+    <div id="goals">
+      <div class="content-container">
+        <p class="goals-label">Goals of Zooland:</p>
+        <br>
+        <ol class="goals-list">
+          <li>
+            Conservation: Zooland is committed to the conservation of wildlife and their habitats. Our primary goal
+            is to contribute to the preservation and protection of endangered species through breeding programs,
+            research initiatives, and active participation in conservation projects.
+          </li>
+          <li>
+            Education: We aim to educate and raise awareness among visitors about the importance of wildlife
+            conservation. Through educational programs, we strive to inspire a sense of wonder and appreciation for the
+            natural world.
+          </li>
+          <p class="quote">"Nature is not a place to visit. It is home." <span class="author">- Gary Snyder</span></h2>
+            <li>
+              Research: Zooland actively supports scientific research efforts related to animal behavior, ecology, and
+              conservation. By collaborating with researchers and institutions, we contribute to expanding knowledge
+              and understanding of various species, their habitats, and the challenges they face.
+            </li>
+            <li>
+              Animal Welfare: We prioritize the health, well-being, and enrichment of our animal residents. Zooland
+              adheres to the highest standards of animal care, providing spacious and stimulating habitats that meet
+              their physical and behavioral needs.
+            </li>
+            <li>
+              Breeding and Species Survival: Zooland participates in breeding programs aimed at ensuring the survival
+              of endangered species. By maintaining genetically diverse populations, we contribute to the long-term
+              viability of these species.
+            </li>
+        </ol>
+
+      </div>
+
+      <div class="goal-images">
+        <div class="image-goals-container">
+          <img src="img/goals.jpg" alt="about-img" class="panda">
+        </div>
+
+        <div class="image-goals-container">
+          <img src="img/goals.webp" alt="about-img" class="panda">
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <div id="partners">
+    <div class="slider-container">
+      <div class="association-logo">
+        <img src="https://blooloop.com/wp-content/uploads/2019/10/Zoological-Association-of-America-Logo.jpg">
+      </div>
+      <div id="slider">
+        <div><img src="https://zooland.si/wp-content/uploads/2020/05/nandu.jpg" alt="img1"></div>
+        <div><img src="https://www.zoo-leipzig.de/fileadmin/_processed_/0/b/csm_Grevy-Zebra_6_533440f3e2.jpg"
+            alt="img2">
+        </div>
+        <div><img
+            src="https://static01.nyt.com/images/2022/04/12/multimedia/30xp-flamingo/30xp-flamingo-superJumbo-v2.jpg"
+            alt="img3"></div>
+        <div><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXVCfRjbGDE18Mg8ZTl5mpDPhFxIOmDq7Cw&usqp=CAU"
+            alt="img4"></div>
+        <div><img src="https://s28164.pcdn.co/files/African-Lion-Hasani-0003-9013-3-1280x720.jpg" alt="img5"></div>
+        <div><img
+            src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.tulsakids.com/content/uploads/2020/07/fennecfoxes-1024x797.jpg"
+            alt="img5"></div>
+        <div><img src="https://zooinstitutes.com/img/animals/07/071542138707_1.jpg" alt="img5"></div>
+      </div>
+      <div class="association-logo">
+        <img
+          src="https://b2386983.smushcdn.com/2386983/wp-content/uploads/2018/02/amazona-zoo-logo-270x270.jpg?lossy=0&strip=1&webp=1">
+      </div>
+    </div>
+
+    <p class="gratitude">With the generous support of: ZAA & AMAZONA</p>
+  </div>
+
+
+  <footer>
+
+    <nav class="footer-nav">
+      <ul class="footer-nav-container">
+        <li>
+          <div class="footer-subtitle-container">
+            <a for="home" class="footer-subtitle">Home</a>
+          </div>
+          <ul class="home-list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#goals">Our Goals</a></li>
+            <li><a href="#partners">Partners</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="footer-subtitle-container">
+            <a for="animals" class="footer-subtitle">Animals</a>
+          </div>
+          <ul class="home-list">
+            <li><a href="animals.html#herbivors">Herbivors</a></li>
+            <li><a href="animals.html#carnivouros">Carnivouros</a></li>
+            <li><a href="animals.html#omnivorous">Omnivorous</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="footer-subtitle-container">
+            <a for="donate" class="footer-subtitle">Donate</a>
+          </div>
+          <ul class="home-list">
+            <li><a href="donate.html#money">Money</a></li>
+            <li><a href="donate.html#food">Food</a></li>
+            <li><a href="donate.html#adopt">Adopt</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="footer-subtitle-container">
+            <a for="contacts" class="footer-subtitle">Contacts</a>
+          </div>
+          <ul class="home-list">
+            <li><a href="contacts.html#address">Address</a></li>
+            <li><a href="contacts.html#write">Write us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </footer>
+
+</body>
+
+</html>
