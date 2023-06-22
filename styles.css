@@ -12,7 +12,7 @@ body {
 }
 
 .home-header{
-  background-image: url('zoo-cover.jpg');
+  background-image: url('img/zoo-cover.jpg');
   background-size: cover;
   background-position: center top -105px;
   width: 100%;

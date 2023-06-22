@@ -12,7 +12,7 @@ body {
 }
 
 .about-header {
-  background-image: url('https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg');
+  background-image: url('https://images.immediate.co.uk/production/volatile/sites/23/2010/07/GettyImages-671702530-d9032ee.jpg');
   background-size: cover;
   background-position: center top -120px;
   height: 32rem;
@@ -32,7 +32,7 @@ body {
 .about-name {
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: hsla(124, 38%, 28%, 0.863);
+  background-color: hsla(124, 38%, 46%, 0.863);
   color: whitesmoke;
   font-size: 2.6rem;
   font-style: oblique;
@@ -100,7 +100,8 @@ body {
 }
 
 #herbivors,
-#carnivouros {
+#carnivouros,
+#omnivouros {
   background-color: rgb(253, 253, 205);
   display: flex;
   padding: 2.5rem;
@@ -198,7 +199,7 @@ section {
 }
 
 .columns {
-  background-color: rgb(226, 250, 233);
+  background-color: rgb(240, 253, 244);
   padding: 2rem;
   column-count: 3;
   column-rule: 3px solid grey;
@@ -232,6 +233,59 @@ section {
   font-size: 1.3rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 0.3rem;
+}
+
+#carnivouros .image-container{
+  width:65rem;
+  height:auto;
+}
+
+.main-pic-car{
+  width:100%;
+}
+
+#omnivouros .image-container{
+  padding-top:6%;
+  width:60rem;
+  height: auto;
+}
+
+#omnivouros .image-container img {
+  width: 100%;
+  height: 24rem;
+}
+
+.outer-space-container{
+  padding-left:20rem;
+  padding-right:20rem;
+  background-image: url('https://www.kxan.com/wp-content/uploads/sites/40/2018/04/coggeshall-raccoon-00028_1522751326318_38976574_ver1.0.jpg');
+  background-size: cover;
+  padding-block:1.5rem;
+
+}
+
+.omnivouros-container {
+  padding: 4rem;
+  background-image: linear-gradient(to right, rgba(241, 244, 255, 0.86), rgba(177, 191, 253, 0.86));
+  border-style: dashed;
+  border-radius: 10rem;
+  position: relative;
+}
+
+
+.omnivouros-container p{
+  margin-bottom: 1.3rem;
+  line-height:1.8rem;
+  text-align: justify;
+  color:black;
+}
+
+.omni-name{
+  background-color: rgb(255, 154, 250);
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-block: 0.1rem;
+  margin-right: 0.3rem;
 }
 
 .footer-nav {
