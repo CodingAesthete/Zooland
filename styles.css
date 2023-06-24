@@ -144,7 +144,7 @@ main {
   display: flex;
   padding: 2rem;
   justify-content: center;
-  column-gap: 3rem;
+  gap: 3rem;
   ;
 }
 
@@ -347,10 +347,18 @@ footer {
 
   #goals {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .goal-images {
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35rem;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .slider-container {
@@ -370,5 +378,293 @@ footer {
   #slider img {
     width: 320px;
     height: 210px;
+  }
+}
+@media(min-width:400px) and (max-width:599px) {
+
+  .home-header {
+    height: 20rem;
+    background-position: top left;
+  }
+  .home-header-content-container {
+    flex-direction: row;
+    column-gap: 0.5rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .logo{
+    width:3rem;
+  }
+
+  .nav-container {
+    flex-direction: column;;
+  }
+
+  .sections {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .image-container {
+    width: 20rem;
+    order: 2;
+  }
+
+  .image-container img {
+    position: static;
+  }
+
+  #goals {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote{
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+
+  .content-container{
+    width:20rem;
+  }
+
+  .goal-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20rem;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slider-container {
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .association-logo {
+    height: 20rem;
+  }
+
+  #slider {
+    width: 320px;
+    height: 220px;
+  }
+
+  #slider img {
+    width: 320px;
+    height: 210px;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+    ;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+  }
+}
+
+@media(min-width:250px) and (max-width:399px) {
+
+  .home-header {
+    height: 15rem;
+    background-position: top left;
+  }
+  .home-header-content-container {
+    flex-direction: row;
+    column-gap: 0.5rem;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .logo{
+    width:2.5rem;
+  }
+
+  .nav-container {
+    flex-direction: column;;
+    gap:1rem;
+  }
+
+  .sections {
+    display: flex;
+    gap:0.6rem;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .content-container{
+    width:13rem;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 13rem;
+    order: 2;
+  }
+
+  .image-goals-container{
+    width:13rem;
+  }
+
+  .panda{
+    width:13rem;
+  }
+
+  .image-container img {
+    position: static;
+  }
+
+  #goals {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote{
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+
+  .content-container{
+    width:13rem;
+  }
+
+  .goal-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10rem;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slider-container {
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .association-logo {
+    height: 10rem;
+  }
+
+  #slider {
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+  }
+
+  #slider img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+    ;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
   }
 }
