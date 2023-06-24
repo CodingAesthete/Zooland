@@ -11,7 +11,7 @@ body {
   background-color: rgb(235, 235, 191);
 }
 
-.home-header{
+.home-header {
   background-image: url('img/zoo-cover.jpg');
   background-size: cover;
   background-position: center top -105px;
@@ -191,21 +191,21 @@ main {
   white-space: nowrap;
 }
 
-.slider-container{
+.slider-container {
   display: flex;
-  padding-left:2rem;
-  padding-right:2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   justify-content: center;
   align-items: center;
 }
 
-.association-logo{
-  height:23rem;
+.association-logo {
+  height: 23rem;
 }
 
-.association-logo img{
-  height:100%;
-  width:auto;
+.association-logo img {
+  height: 100%;
+  width: auto;
 }
 
 #slider {
@@ -222,12 +222,13 @@ main {
   height: 347px;
 }
 
-.gratitude{
-  font-size:1.4rem;
-  padding-top:1.5rem;
+.gratitude {
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
   text-align: center;
-  font-family:cursive;
-  letter-spacing: 0.5rem;;
+  font-family: cursive;
+  letter-spacing: 0.5rem;
+  ;
 }
 
 footer {
@@ -239,7 +240,7 @@ footer {
 }
 
 .footer-nav-container {
-  padding-top:0.7rem;
+  padding-top: 0.7rem;
   height: 100%;
   list-style-type: none;
   display: flex;
@@ -252,23 +253,122 @@ footer {
   cursor: pointer;
 }
 
-.footer-subtitle-container{
-  margin-bottom:0.4rem;
+.footer-subtitle-container {
+  margin-bottom: 0.4rem;
 }
 
-.home-list{
-  list-style-type:square;
+.home-list {
+  list-style-type: square;
 }
 
-.home-list li::marker{
-  color:blue;
-  font-size:1.1rem;
+.home-list li::marker {
+  color: blue;
+  font-size: 1.1rem;
 }
 
-.home-list li{
-  padding-top: 0.5rem;;
+.home-list li {
+  padding-top: 0.5rem;
+  ;
 }
 
-.home-list li a{
+.home-list li a {
   text-decoration: none;
+}
+
+@media(min-width:900px) and (max-width:1220px) {
+  .home-header {
+    width: 100%;
+    height: 30rem;
+    background-position: top;
+  }
+
+  .img-container {
+    width: 3rem;
+  }
+
+  .image-container {
+    padding-top: 10%;
+    width: 80rem;
+  }
+
+  .goal-images {
+    gap: 20%;
+    padding-top: 12%;
+  }
+
+  .association-logo {
+    height: 14rem;
+  }
+
+  #slider {
+    width: 340px;
+    height: 220px;
+  }
+
+  #slider img {
+    width: 340px;
+    height: 210px;
+  }
+}
+
+@media(min-width:600px) and (max-width:899px) {
+
+  .home-header {
+    width: 100%;
+    height: 30rem;
+    background-position: top left;
+  }
+
+  .home-header-content-container {
+    flex-direction: row;
+    column-gap: 0.5rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .image-container {
+    width: 20rem;
+    order: 2;
+  }
+
+  .image-container img {
+    position: static;
+  }
+
+  #goals {
+    flex-direction: column;
+  }
+
+  .goal-images {
+    flex-direction: row;
+  }
+
+  .slider-container {
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .association-logo {
+    height: 20rem;
+  }
+
+  #slider {
+    width: 320px;
+    height: 220px;
+  }
+
+  #slider img {
+    width: 320px;
+    height: 210px;
+  }
 }
