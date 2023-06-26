@@ -345,10 +345,12 @@ section {
 
   .content-container{
     width:35rem;
+    padding:1rem;
   }
 
   .omni-content{
     width:100%;
+    padding:1rem;
   }
 
   #carnivouros{
