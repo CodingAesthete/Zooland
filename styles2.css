@@ -114,11 +114,9 @@ body {
   padding-top: 8%;
   width: 90rem;
   height: auto;
-  position: relative;
 }
 
 .image-container img {
-  position: absolute;
   width: 100%;
 }
 
@@ -326,4 +324,624 @@ section {
 
 .home-list li a {
   text-decoration: none;
+}
+
+@media(min-width:900px) and (max-width:1220px) {
+  .about-header {
+    height: 30.8rem;
+  }
+
+  .image-container{
+    flex-direction: column;
+    width: 20rem;
+    display:flex;
+    justify-content: center;
+    align-items:center
+  }
+
+  .anti{
+    display:none;
+  }
+
+  .content-container{
+    width:35rem;
+  }
+
+  .omni-content{
+    width:100%;
+  }
+
+  #carnivouros{
+    display:flex;
+  }
+
+  .carn{
+    flex:1;
+  }
+
+  .tiger{
+    width:10rem;
+    height:auto;
+  }
+
+  .tiger-img{
+    width:2rem;
+  }
+
+  .wolf{
+    order:1;
+    display:none;
+  }
+
+  .image-container img {
+    position: static;
+    width: 100%;
+  }
+
+  .content-container {
+    flex: 0 0 60%; /* Set flex-basis to 70% */
+  }
+
+  .tiger {
+    flex: 0 0 40%; /* Set flex-basis to 30% */
+  }
+
+  #omnivouros {
+    display: grid;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top:0;
+  }
+  
+  .omni-img-cont {
+    width: 20rem;
+    display: none;
+  }
+  
+  .omni-img-cont1 {
+    width: 100rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .omni-img-cont1 img {
+    max-width: 60%;
+    height: auto;
+  }
+  
+  .outer-space-container{
+    position:relative;
+    height:130rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-position: top center;;
+  }
+
+  .omnivouros-container{
+    position:absolute;
+    width:90%;
+  }
+
+  .outer-space-container{
+    padding-left:15rem;
+    padding-right:15rem;
+  }
+
+  .omni-content{
+    padding:10rem;;
+    margin:0;
+  }
+
+  .carn{
+    padding-right:1rem;
+    margin-right:0.8rem;
+  }
+}
+
+@media(min-width:600px) and (max-width:899px){
+  .about-header {
+    height: 21rem;
+    background-position: center top -3.7rem;
+  }
+
+  .about-name{
+    font-size:2.2rem;
+  }
+
+  .about-img-container{
+    width:5.5rem;
+  }
+
+  .sections{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .content-container{
+    width:35rem;
+  }
+
+  .omni-content{
+    width:100%;
+  }
+
+  #herbivors{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  }
+
+  .image-container{
+    width:25rem;
+    margin-block:0;
+    padding-block:0;
+  }
+
+  .content-container{
+    width:100%;
+  }
+
+  #carnivouros{
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  }
+
+  #carnivouros .image-container{
+    width:25rem;
+    height:auto;
+  }
+  
+  .main-pic-car{
+    width:100%;
+  }
+
+  .carn-images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+  }
+
+  .exotic-img{
+    width:30rem;
+    height:auto;
+  }
+
+  #omnivouros{
+    flex-direction: column;
+    padding-top:0;
+    gap:2rem;
+  }
+
+  .omni-img-cont{
+    max-width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+  }
+
+  .omni-img-cont img {
+    max-width: 50%;
+  }
+
+  .omni-img-cont1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .omni-img-cont1 img {
+    max-width: 50%;
+  }
+
+  .outer-space-container{
+    position:relative;
+    height:132rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-position: top center;;
+  }
+
+  .omnivouros-container{
+    position:absolute;
+    width:90%;
+  }
+
+  .outer-space-container{
+    padding-left:10rem;
+    padding-right:10rem;
+  }
+}
+
+@media(min-width:400px) and (max-width:599px){
+  .about-header {
+    height: 15rem;
+    background-position: center top -1.6rem;
+  }
+
+  .about-name{
+    font-size:1.5rem;
+  }
+
+  .about-img-container{
+    width:4rem;
+  }
+
+  .nav-container{
+    flex-direction: column;
+    gap:1.5rem;
+  }
+
+  .sections{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-container{
+    width:35rem;
+  }
+
+  .omni-content{
+    width:100%;
+  }
+
+  #herbivors{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  }
+
+  .image-container{
+    width:20rem;
+  }
+
+  .content-container{
+    width:100%;
+  }
+
+  #carnivouros{
+    background-color: rgb(253, 253, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #carnivouros .tiger{
+    width:20rem;
+    height:35rem;
+  }
+
+  .wolf{
+    display:none;
+  }
+
+  .tiger-img{
+    width:100%;
+  }
+
+  .carn-images{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .columns{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .carn{
+    width:100%;
+  }
+
+  #omnivouros{
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .omni-img-cont{
+    display:none;
+  }
+
+  .omni-img-cont img {
+    max-width: 100%;
+  }
+
+  .omni-img-cont1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .omni-img-cont1 img {
+    max-width: 70%;
+  }
+
+  .omni-content{
+    width:100%;
+  }
+
+  .outer-space-container{
+    position:relative;
+    height:230rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-position: top center;;
+  }
+
+  .omnivouros-container{
+    position:absolute;
+    width:90%;
+    border-radius: 1rem;;
+  }
+
+  .outer-space-container{
+    padding-left:10rem;
+    padding-right:10rem;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+  }
+}
+
+@media(min-width:250px) and (max-width:399px){
+  .about-header-content-container{
+    gap:2.5rem;
+  }
+
+  .about-header {
+    height: 12rem;
+    background-position: center top;
+  }
+
+  .about-name{
+    margin-left:1rem;
+    font-size:1rem;
+  }
+
+  .about-img-container{
+    margin-left:1rem;
+    width:3rem;
+  }
+
+  .nav-container{
+    flex-direction: column;
+    gap:1.5rem;
+  }
+
+  .sections{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #herbivors{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  }
+
+  .greeting{
+    font-size:1rem;
+    font-weight: bolder;
+  }
+
+  .image-container, .block{
+    width:10rem;
+  }
+
+  .content-container{
+    width:100%;
+    text-align: center;
+  }
+
+  .herbivors-list p{
+    text-align: center;
+  }
+
+  #carnivouros{
+    background-color: rgb(253, 253, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #carnivouros .tiger{
+    width:10rem;
+    height:18rem;
+  }
+
+  .wolf{
+    display:none;
+  }
+
+  .tiger-img{
+    width:100%;
+  }
+
+  .carn-images{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .columns{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .carn{
+    width:100%;
+  }
+
+  .exotic-img{
+    height:50%;
+  }
+
+  #omnivouros{
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .omni-img-cont{
+    display:none;
+  }
+
+  .omni-img-cont img {
+    max-width: 100%;
+  }
+
+  .omni-img-cont1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:1rem;
+  }
+  
+  .omni-img-cont1 img {
+    max-width: 90%;
+    max-height:17rem;
+  }
+
+  .omni-content{
+    width:100%;
+  }
+
+  .outer-space-container{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShKfGAS8Y80WMC13paRkUt8ztEdW8gULFE8w&usqp=CAU');
+    background-position: center;
+    position:relative;
+    height:230rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-position: top center;;
+  }
+
+  .omnivouros-container{
+    position:absolute;
+    width:90%;
+    border-radius: 1rem;;
+  }
+
+  .outer-space-container{
+    position:relative;
+    height:293rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-position: top center;;
+    margin:0;
+    padding:0;
+  }
+
+  .omnivouros-container{
+    width:90%;
+    border-radius:0;;
+    padding:2rem 1rem 3rem 1rem;
+  }
+
+  .omnivouros-container p{
+    text-align: center;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+    ;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+  }
 }
