@@ -9,6 +9,7 @@ html,
 body {
   scroll-behavior: smooth;
   background-image: linear-gradient(aliceblue, #c1d6ff);
+  position:relative;
 }
 
 .about-header {
@@ -290,4 +291,372 @@ body {
 
 .home-list li a {
   text-decoration: none;
+}
+
+@media(min-width:900px) and (max-width:1220px){
+  .about-header{
+    background-position: top;
+  }
+
+  .img-money-container, .img-food-container{
+    width:80rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-money-container img, .img-food-container img{
+    height:25rem;
+  }
+
+  .goals-table{
+    width:90%;
+  }
+
+  .goal-price{
+    text-align: center;
+  }
+}
+
+@media(min-width:600px) and (max-width:899px){
+  .about-header{
+    height:25rem;
+    background-position: top;
+  }
+
+  .about-name{
+    font-size:2rem;
+  }
+
+  .about-img-container{
+    width:4rem;
+  }
+
+  #money{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-money-container, .img-food-container{
+    width:30rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-money-container img, .img-food-container img{
+    height:25rem;
+  }
+  
+  .goals-table {
+    table-layout: fixed;
+    width: 90%;
+  }
+  
+  .goals-table th,
+  .goals-table td {
+    padding: 0.5rem;;
+  }
+  
+  .goals-table th:nth-child(1),
+  .goals-table td:nth-child(1) {
+    width: 30%;
+  }
+  
+  .goals-table th:nth-child(2),
+  .goals-table td:nth-child(2) {
+    width: 33%;
+  }
+  
+  .goals-table th:nth-child(3),
+  .goals-table td:nth-child(3),
+  .goals-table th:nth-child(5),
+  .goals-table td:nth-child(5) {
+    width: 19%;
+    text-align: center;
+  }
+
+  
+  .goals-table th:nth-child(4),
+  .goals-table td:nth-child(4){
+    display:none;
+  }
+  
+
+  #food{
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .food-goals-container{
+    display:none;
+  }
+}
+
+@media(min-width:400px) and (max-width:599px){
+  .about-header{
+    height:20rem;
+    background-position: top;
+  }
+
+  .about-name{
+    font-size:1.4rem;
+  }
+
+  .about-img-container{
+    width:2.5rem;
+  }
+
+  #help{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+  }
+
+  #money{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-money-container, .img-food-container{
+    width:20rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-money-container img, .img-food-container img{
+    height:25rem;
+  }
+  
+  .goals-table {
+    table-layout: fixed;
+    width: 90%;
+  }
+  
+  .goals-table th,
+  .goals-table td {
+    padding: 0.5rem;;
+    font-size:0.8rem;
+  }
+  
+  .goals-table th:nth-child(1),
+  .goals-table td:nth-child(1) {
+    width: 30%;
+  }
+  
+  .goals-table th:nth-child(2),
+  .goals-table td:nth-child(2) {
+    width: 33%;
+  }
+  
+  .goals-table th:nth-child(3),
+  .goals-table td:nth-child(3) {
+    width: 19%;
+    text-align: center;
+  }
+
+  
+  .goals-table th:nth-child(4),
+  .goals-table td:nth-child(4),
+  .goals-table th:nth-child(5),
+  .goals-table td:nth-child(5){
+    display:none;
+  }
+  
+
+  #food{
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .food-goals-container{
+    display:none;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+  }
+}
+
+@media(min-width:250px) and (max-width:399px){
+  .about-header{
+    height:20rem;
+    background-position: top;
+  }
+
+  .about-name{
+    font-size:1rem;
+  }
+
+  .about-img-container{
+    width:2rem;
+  }
+
+  .nav-container{
+    flex-direction: column;
+    gap:1.5rem;
+  }
+
+  .sections{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help-container, .money-container{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+
+  #help p, #money p{
+    text-align: center;
+  }
+
+  #help, #money{
+    padding-left:1rem;
+    padding-right:1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #money{
+    padding:0;
+  }
+
+  .img-money-container, .img-food-container{
+    width:14rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-money-container img, .img-food-container img{
+    height:15rem;
+  }
+  
+  .goals-table {
+    table-layout: fixed;
+    width: 90%;
+  }
+  
+  .goals-table th,
+  .goals-table td {
+    padding: 0.5rem;;
+    font-size:0.8rem;
+  }
+  
+  .goals-table th:nth-child(1),
+  .goals-table td:nth-child(1) {
+    width: 58%;
+  }
+  
+  .goals-table th:nth-child(3),
+  .goals-table td:nth-child(3) {
+    width: 42%;
+    text-align: right;
+  }
+
+  
+  .goals-table th:nth-child(4),
+  .goals-table td:nth-child(4),
+  .goals-table th:nth-child(5),
+  .goals-table td:nth-child(5),
+  .goals-table th:nth-child(2),
+  .goals-table td:nth-child(2){
+    display:none;
+  }
+  
+
+  #food{
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .food-goals-container{
+    display:none;
+  }
+
+  .footer-nav{
+    display:flex;
+    flex-direction: column;;
+  }
+
+  .footer-nav-container {
+    padding-top: 0.7rem;
+    height: 37rem;;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    gap:1.3rem;
+    justify-content: center;
+    background-color: rgb(253, 224, 248);
+    padding-left: 35%;
+    padding-block:2rem;
+  }
+  
+  .footer-nav-container li .footer-subtitle {
+    border-bottom: 2px dashed;
+    cursor: pointer;
+  }
+  
+  .footer-subtitle-container {
+    margin-bottom: 0.4rem;
+  }
+  
+  .home-list {
+    list-style-type: square;
+  }
+  
+  .home-list li::marker {
+    color: blue;
+    font-size: 1.1rem;
+  }
+  
+  .home-list li {
+    padding-top: 0.5rem;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+  }
 }

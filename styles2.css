@@ -578,7 +578,7 @@ section {
   }
 
   .nav-container{
-    flex-direction: column;
+    flex-direction: row;
     gap:1.5rem;
   }
 
@@ -675,8 +675,9 @@ section {
   }
 
   .outer-space-container{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShKfGAS8Y80WMC13paRkUt8ztEdW8gULFE8w&usqp=CAU');
     position:relative;
-    height:230rem;
+    height:290rem;
     display:flex;
     align-items:center;
     justify-content: center;
